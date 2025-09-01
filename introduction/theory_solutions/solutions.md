@@ -4,7 +4,7 @@ From a security point of view, this functionality (displaying just **Login incor
 
 Making the incorrect login message more descriptive (by stating what credential is invalid) makes brute-force attacks easier to carry out given the attacker has one credential, say the username. Just displaying Login incorrect makes it harder for the attacker to access the system because the number of combinations required to carry out the brute-force attack goes up. The attacker will have to find a username and password combination that works, unlike finding just one given the other credential was provided.
 
-Short answer: It helps to mitiagate unauthorized access in the event a bad actor is involved, or an unintented access attempt is carried out. For example misspelling a username or missing a character in a password
+**TL;DR**: It helps to mitiagate unauthorized access in the event a bad actor is involved, or an unintented access attempt is carried out. For example misspelling a username or missing a character in a password
 
 # 2. There are no wrong answers...only "wrong" passwords
 
